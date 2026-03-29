@@ -1,0 +1,17 @@
+# Build output
+out/
+bin/
+target/
+
+# Eclipse files
+.classpath
+.project
+.settings/
+
+# IDE artifacts
+*.iml
+*.idea/
+
+# System files
+Thumbs.db
+.DS_Store
