@@ -1,10 +1,6 @@
-# P5.2-easy
+# Servidor P2P
 
-Esta carpeta contiene una versión lista para ejecutar de P5.2 para portfolio.
-
-## Descripción
-
-- Proyecto cliente/servidor con manejo de usuarios, biblioteca, descargas P2P y concurrencia.
+Proyecto cliente/servidor con manejo de usuarios, biblioteca, descargas P2P y concurrencia.
 
 ## Requisitos
 
@@ -22,7 +18,6 @@ Esta carpeta contiene una versión lista para ejecutar de P5.2 para portfolio.
 ## Compilar
 
 ```bash
-cd PC/P5.2-easy
 mvn clean package
 ```
 
@@ -33,21 +28,11 @@ Abrir dos terminales:
 Terminal 1:
 
 ```bash
-cd PC/P5.2-easy
 mvn exec:java -Dexec.mainClass="servidor.Servidor"
 ```
 
 Terminal 2:
 
 ```bash
-cd PC/P5.2-easy
 mvn exec:java -Dexec.mainClass="cliente.Cliente"
 ```
-
-## Dependencias
-
-- `json-simple:1.1.1` (gestionado automáticamente en `pom.xml`).
-
-## Referencia
-
-- `compile.txt` tiene los pasos de compilación originales que se migraron a Maven.
